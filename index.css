@@ -1,0 +1,67 @@
+@font-face {
+    src: url("font.ttf");
+    font-family: "Numeric";
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 0;
+    text-align: center;
+}
+
+.container-1 {
+  width: 10000000px;
+}
+
+.title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    margin: 30px auto 0 auto;
+}
+
+.score {
+    font-family: "Numeric";
+    color: #F94F6D;
+    background-color: #080001;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 40px 80px;
+    font-size: 120px;
+    border-radius: 5px;
+}
+
+.btns {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+
+button {
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 30px;
+    font-family: "Numeric";
+    margin-top: 10px;
+    padding: 14px 14px;
+    margin-right: 10px;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#reset {
+    margin: auto 0;
+    height: fit-content;
+}
